@@ -94,7 +94,7 @@
             <div class="info-item d-flex flex-column justify-content-center align-items-center">
               <i class="bi bi-envelope"></i>
               <h3>Email</h3>
-              <p>legalizacao@deltacont.com.br</p>
+              <p>sidcentercar@hotmail.com</p>
             </div>
           </div><!-- End Info Item -->
 
@@ -111,33 +111,43 @@
         <div class="row gy-4 mt-1">
 
           <div class="col-lg-6 ">
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3659.5346507804325!2d-47.484065699999995!3d-23.477244499999994!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94c5f52142e59667%3A0x5a592310c3c564e6!2sAlameda%20Franca%2C%20125%20-%20Recreio%20Marajoara%2C%20Sorocaba%20-%20SP%2C%2018070-680!5e0!3m2!1spt-BR!2sbr!4v1725420550438!5m2!1spt-BR!2sbr" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3659.5346507804325!2d-47.484065699999995!3d-23.477244499999994!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94c5f52142e59667%3A0x5a592310c3c564e6!2sAlameda%20Franca%2C%20125%20-%20Recreio%20Marajoara%2C%20Sorocaba%20-%20SP%2C%2018070-680!5e0!3m2!1spt-BR!2sbr!4v1725420550438!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
           </div><!-- End Google Maps -->
 
-          <div class="col-lg-6">
-            <form action="forms/contact2.py" method="post" role="form" class="py-email-form">
-              <div class="row gy-4">
-                <div class="col-lg-6 form-group">
-                  <input type="text" name="name" class="form-control" id="name" placeholder="Nome" required>
+          <div class="col-lg-5" data-aos="fade">
+            <form action="https://formspree.io/f/meojwjvw" method="POST" class="php-email-form">
+              <h3>ENTRE EM CONTATO CONOSCO!</h3>
+              <p>Insira seus dados e relate o que precisa e brevemente entraremos em contato com você</p>
+              <div class="row gy-3">
+          
+                <div class="col-md-12">
+                  <input type="text" name="name" class="form-control" placeholder="Nome" required>
                 </div>
-                <div class="col-lg-6 form-group">
-                  <input type="email" class="form-control" name="email" id="email" placeholder="Email" required>
+          
+                <div class="col-md-12">
+                  <input type="email" class="form-control" name="email" placeholder="Email" required>
                 </div>
+          
+                <div class="col-md-12">
+                  <input type="text" class="form-control" name="phone" placeholder="Telefone" required>
+                </div>
+          
+                <div class="col-md-12">
+                  <textarea class="form-control" name="message" rows="6" placeholder="Mensagem" required></textarea>
+                </div>
+          
+                <div class="col-md-12 text-center">
+                  <div class="loading">Carregando</div>
+                  <div class="error-message"></div>
+                  <div class="sent-message">Sua solicitação de orçamento foi enviada com sucesso. Obrigado!</div>
+          
+                  <button type="submit">Enviar</button>
+                </div>
+          
               </div>
-              <div class="form-group">
-                <input type="text" class="form-control" name="subject" id="subject" placeholder="Assunto" required>
-              </div>
-              <div class="form-group">
-                <textarea class="form-control" name="message" rows="5" placeholder="Mensagem" required></textarea>
-              </div>
-              <div class="my-3">
-                <div class="loading">Loading</div>
-                <div class="error-message"></div>
-                <div class="sent-message">Sua mensagem foi enviada com sucesso. Obrigado!</div>
-              </div>
-              <div class="text-center"><button type="submit">Enviar</button></div>
             </form>
-          </div><!-- End Contact Form -->
+          </div>
+          <!-- End Quote Form -->          
 
         </div>
 
