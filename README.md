@@ -1,5 +1,5 @@
 
-# Oficina Mecânica - Página Web
+# Oficina Mecânica - Landing Page
 
 Este projeto é uma página web desenvolvida para uma oficina mecânica, com o objetivo de apresentar os serviços oferecidos, localização, e formas de contato com a empresa.
 
